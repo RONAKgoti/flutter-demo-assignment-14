@@ -1,16 +1,47 @@
-# flutter_demo
+# Flutter TODO App (Firebase + Authentication)
 
-A new Flutter project.
+## Project Overview
+This is a Flutter TODO application with Firebase Authentication and Cloud Firestore integration. Users can register, login, add tasks, view tasks, delete tasks, and logout securely.
 
-## Getting Started
+## Features
+- User Registration
+- User Login
+- Firebase Email/Password Authentication
+- Add TODO Tasks
+- View Task List
+- Delete Tasks
+- Logout
+- Cloud Firestore Database Integration
 
-This project is a starting point for a Flutter application.
+## Project Files
+- main.dart
+- login_page.dart
+- todo_page.dart
+- firebase_options.dart
+- pubspec.yaml
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Login Screen
+![Login](Screenshot%202026-05-03%20192502.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Todo Home Screen
+![Todo](Screenshot%202026-05-03%20192521.png)
+
+### 3. Firebase Authentication Users
+![Authentication](Screenshot%202026-05-03%20192533.png)
+
+### 4. Firestore Database Data
+![Firestore](Screenshot%202026-05-03%20192549.png)
+
+## Firebase Services Used
+- Firebase Authentication
+- Cloud Firestore
+
+## How to Run Project
+1. Open project in Android Studio or VS Code
+2. Run command:
+
+```bash
+flutter pub get
+flutter run
